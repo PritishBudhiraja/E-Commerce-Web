@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Shopping site</title>
+  </head>
+  <body>
+    <div id="filterButtons"></div>
+    <br />
+    <form name="myForm" onsubmit="event.preventDefault(); filterBrand(event)">
+      <input type="text" placeholder="Search" name="search"/>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+
+    <br /><br />
+    <div id="shop"></div>
+  </body>
+  <script src="shopping.js"></script>
+</html>
